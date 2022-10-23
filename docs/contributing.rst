@@ -243,7 +243,15 @@ notes (``docs/release.rst``).
 
 The documentation can be built locally by running::
 
+
     $ tox -e docs
+
+
+.. note::
+   In a scenario where the build fails, change the 
+   basepython = python3.8 to the latest version of python( for Ubuntu 22.04)
+
+  
 
 The resulting built documentation will be available in the ``.tox/docs/tmp/html`` folder.
 
